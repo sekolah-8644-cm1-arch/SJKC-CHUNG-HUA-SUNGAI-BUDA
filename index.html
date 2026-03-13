@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="firebase-config.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <input type="file" id="logoUpload" accept="image/*">
+            <h1>水塘路中华公学图书馆</h1>
+        </div>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="library-books clickable">LIBRARY BOOKS</div>
+            <div class="borrowed-books clickable">BOOKS CURRENTLY BORROWED</div>
+            <div class="fine-info clickable">FINE FOR BOOK MISSING/LATE RETURNED</div>
+            <div class="student-name clickable">STUDENT NAME</div>
+            <div class="staff-name clickable">STAFF NAME</div>
+            <div class="recent-transaction clickable">RECENT TRANSACTION</div>
+        </section>
+    </main>
+</body>
+</html>
